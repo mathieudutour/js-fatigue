@@ -1,6 +1,6 @@
 {
   "name": "@mathieudutour/js-fatigue",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "js dependencies",
   "scripts": {
     "copy_babelrc": "cp -n .babelrc ../../../ || true",
@@ -33,6 +33,7 @@
     "babel-preset-stage-0": "^6.3.13",
     "eslint": "^2.4.0",
     "eslint-config-standard": "^5.1.0",
+    "eslint-plugin-import": "^1.2.0",
     "eslint-plugin-promise": "^1.0.8",
     "eslint-plugin-standard": "^1.3.2",
     "sinon": "^1.17.3",
