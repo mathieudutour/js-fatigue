@@ -1,6 +1,6 @@
 {
   "name": "@mathieudutour/js-fatigue",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "js dependencies",
   "scripts": {
     "postinstall": "cp node_modules/js-fatigue/.babelrc ./ && cp node_modules/js-fatigue/.eslintrc ./ && cp node_modules/js-fatigue/.travis.yml ./ cp node_modules/js-fatigue/.gitignore ./"
