@@ -1,13 +1,12 @@
 {
   "name": "@mathieudutour/js-fatigue",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "js dependencies",
   "scripts": {
     "copy_babelrc": "cp -n .babelrc ../../../ || true",
     "copy_eslintrc": "cp -n .eslintrc ../../../ || true",
     "copy_travis": "cp -n .travis.yml ../../../ || true",
-    "copy_gitignore": "cp -n .gitignore ../../../ || true",
-    "postinstall": "npm run copy_babelrc && npm run copy_eslintrc && npm run copy_travis && npm run copy_gitignore"
+    "postinstall": "npm run copy_babelrc && npm run copy_eslintrc && npm run copy_travis && create_gitignore.sh || true"
   },
   "repository": {
     "type": "git",
@@ -16,8 +15,8 @@
   "files": [
     ".babelrc",
     ".eslintrc",
-    ".gitignore",
     ".travis.yml",
+    "create_gitignore.sh",
     "Makefile"
   ],
   "homepage": "https://github.com/mathieudutour/js-fatigue",
