@@ -9,6 +9,13 @@
     "type": "git",
     "url": "https://github.com/mathieudutour/js-fatigue.git"
   },
+  "files": [
+    ".babelrc",
+    ".eslintrc",
+    ".gitignore",
+    ".travis.yml",
+    "Makefile"
+  ],
   "homepage": "https://github.com/mathieudutour/js-fatigue",
   "keywords": [],
   "author": "Mathieu Dutour <mathieu@dutour.me>",
