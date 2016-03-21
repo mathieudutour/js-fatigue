@@ -1,6 +1,6 @@
 {
   "name": "@mathieudutour/js-fatigue",
-  "version": "0.1.9",
+  "version": "1.0.0",
   "description": "js dependencies",
   "scripts": {
     "copy_babelrc": "cp -n .babelrc ../../../ || true",

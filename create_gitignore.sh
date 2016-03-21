@@ -1,18 +1,18 @@
 cat > ../../../.gitignore << EOF
-\# build artefacts
+# build artefacts
 build
 
-\# npm
+# npm
 node_modules
 
-\# Logs
+# Logs
 logs
 *.log
 npm-debug.log*
 
-\# Optional npm cache directory
+# Optional npm cache directory
 .npm
 
-\# Optional REPL history
+# Optional REPL history
 .node_repl_history
 EOF
