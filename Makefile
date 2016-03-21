@@ -6,7 +6,8 @@ BUILD_FLAGS ?=
 
 BABEL_FLAGS ?=
 
-TEST_TARGET=tests/
+TEST_TARGET ?= tests/
+TEST_FLAGS ?= --require babel-register
 
 P="\\033[34m[+]\\033[0m"
 
