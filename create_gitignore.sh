@@ -15,4 +15,7 @@ npm-debug.log*
 
 # Optional REPL history
 .node_repl_history
+
+# Optional Env variables
+.env
 EOF
