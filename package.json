@@ -24,7 +24,7 @@
   "author": "Mathieu Dutour <mathieu@dutour.me>",
   "license": "MIT",
   "dependencies": {
-    "ava": "^0.14.0",
+    "ava": "^0.16.0",
     "babel-cli": "^6.9.0",
     "babel-core": "^6.9.0",
     "babel-eslint": "^6.0.4",
