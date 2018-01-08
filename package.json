@@ -36,7 +36,7 @@
     "eslint-plugin-import": "^2.0.1",
     "eslint-plugin-promise": "^3.3.0",
     "eslint-plugin-standard": "^2.0.1",
-    "sinon": "^1.17.6",
+    "sinon": "^4.1.4",
     "sinon-as-promised": "^4.0.2"
   }
 }
